@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Image Gallery</h1>
+  <div class="gallery-container">
+    <div class="image-item" onclick="openModal('image1.jpg')">
+      <img src="https://imgd.aeplcdn.com/0x0/n/cw/ec/40087/thar-exterior-left-rear-three-quarter.jpeg" alt="Image 1">
+    </div>
+    <div class="image-item" onclick="openModal('image2.jpg')">
+      <img src="https://wallpapercave.com/wp/wp2506451.jpg" alt="Image 2">
+    </div>
+    <div class="image-item" onclick="openModal('image1.jpg')">
+        <img src="https://cdni.autocarindia.com/ExtraImages/20200916040623_2020-Mahindra-Thar-front-static.jpg" alt="Image 1">
+        </div>
+        <div class="image-item" onclick="openModal('image1.jpg')">
+            <img src="https://ic1.maxabout.us/news/2020/08/New-Mahindra-Thar-LX-2.jpg" alt="Image 3">
+          </div>
+          <div class="image-item" onclick="openModal('image1.jpg')">
+            <img src="https://www.motortrend.com/uploads/sites/5/2019/06/2019-Jeep-Wrangler-Unlimited-Rubicon-front-three-quarter-in-motion-1-1.jpg" alt="Image 1">
+          </div>
+          <div class="image-item" onclick="openModal('image1.jpg')">
+            <img src="https://www.wallpaperflare.com/static/950/734/559/jeep-wrangler-jeep-car-vehicle-wallpaper.jpg" alt="Image 1">
+          </div>
+          <div class="image-item" onclick="openModal('image1.jpg')">
+            <img src="https://wheelfront.com/wp-content/uploads/formidable/8/red-jeep-wrangler-with-fuel-assault-d546-wheels-2.jpg" alt="Image 1">
+          </div>
+          <div class="image-item" onclick="openModal('image1.jpg')">
+            <img src="https://www.quadratec.com/sites/default/files/styles/product_large/public/product_images/iron-cross-front-stubby-bumper-with-bull-bar-jk-gp-1200-installed-painted.jpg" alt="Image 1">
+          </div>
+          <div class="image-item" onclick="openModal('image1.jpg')">
+            <img src="https://i.pinimg.com/originals/91/9d/b7/919db7747c3b11d115eeef5e8f382a04.jpg" alt="Image 1">
+          </div>
+          <div class="image-item" onclick="openModal('image1.jpg')">
+            <img src="https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/wp-content/uploads/2017/12/2018-jeep-wrangler.jpg?crop=0.536xw:0.493xh;0.286xw,0.295xh&resize=980:*" alt="Image 1">
+          </div>
+          <div class="image-item" onclick="openModal('image1.jpg')">
+            <img src="https://wallup.net/wp-content/uploads/2019/09/170979-2013-jeep-wrangler-slim-concept-jk-mopar-4x4-muscle-j-k-suv-748x561.jpg" alt="Image 1">
+          </div>
+          <div class="image-item" onclick="openModal('image1.jpg')">
+            <img src="https://i.pinimg.com/originals/b5/9c/de/b59cde6f84cb419c955d890f906685ba.jpg" alt="Image 1">
+          </div>
+          <div class="image-item" onclick="openModal('image1.jpg')">
+            <img src="https://www.cartoq.com/wp-content/uploads/2018/03/DC-Design-Thar-Hammer-images.jpg" alt="Image 1">
+          </div>
+          <div class="image-item" onclick="openModal('image1.jpg')">
+            <img src="https://i.pinimg.com/736x/82/53/40/8253406ac0ad180bbfff732673cbd2ef.jpg" alt="Image 1">
+          </div>
+
+  </div>
+
+  <div id="modal" class="modal-overlay" style="display: none;">
+    <div class="modal-content">
+      <img id="modal-image" src="" alt="Selected Image">
+      <button class="close-button" onclick="closeModal()">×</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
